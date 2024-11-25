@@ -43,10 +43,86 @@
 
 // typeof() returns the datatype of passed args/data
 
-let data = true
+// let data = true
 
-console.log(typeof(data))
-console.log(data)
+// console.log(typeof(data))
+// console.log(data)
 
 
 // find out what datatype window.prompt() data returns
+
+// prompt -  string
+
+// let data = prompt("enter some data")
+
+// console.log(data)
+// console.log(typeof(data))
+
+// type casting
+
+// number - > string
+// number - > boolean
+
+// string - > number(conditional) - > NaN
+// string - > boolean
+
+// boolean - > number
+// boolean - > string
+
+// let data = 0
+
+// console.log(data)
+
+// console.log("type of data before it is " + typeof(data))
+
+// // number to string
+
+// // data = data.toString() // to convert the number into string 
+
+// // data = String(data)
+
+// // number to boolean
+
+// data = Boolean(data)
+
+// console.log(data)
+
+// console.log("type of data after it is " + typeof(data))
+
+// let data = ""
+
+// console.log(data)
+
+// console.log("type of data before it is " + typeof(data))
+
+// // string to number
+
+// // data = Number(data)
+
+// // data = parseInt(data)
+
+// // string to boolean 
+
+// data = Boolean(data)
+
+// console.log(data)
+
+// console.log("type of data after it is " + typeof(data))
+
+// boolean -  > number
+
+let data = false;
+
+console.log("type of data before it is " + typeof(data))
+
+// boolean -> number 
+
+// data = Number(data)
+
+// boolean - > string
+
+data = String(data)
+
+console.log(data)
+
+console.log("type of data after it is " + typeof(data))
